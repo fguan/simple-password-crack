@@ -5,7 +5,6 @@ SavedPassword='mypassword'
 
 while read line
 do
-
     if [ "$line" == "$SavedPassword" ]
     then
 	printf "*** Matched saved password: $line ***\n"
